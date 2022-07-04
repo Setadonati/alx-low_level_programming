@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - prnts all possible combninations of single-digit numbers
+*main - Prints all possible combinations of single-digit numbers.
 *
-* Return: Always 0 (Success)
+*Return: Always 0.
 */
-
-int num(void)
+int main(void)
 {
 int num;
 
