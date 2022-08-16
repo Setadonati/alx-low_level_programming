@@ -10,7 +10,7 @@ listint_t *reverse_listint(listint_t **head)
 {
 	listint_t *p;
 	listint_t *n;
-	
+
 	p = NULL;
 	n = NULL;
 
@@ -22,6 +22,6 @@ listint_t *reverse_listint(listint_t **head)
 		*head = n;
 	}
 
-	head = p;
+	*head = p;
 	return (*head);
 }
